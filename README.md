@@ -117,3 +117,9 @@ The analysis identifies a positive relationship between regional fire activity a
 **Priyanka Tiwari**
 
 MCA (Artificial Intelligence and Machine Learning)
+
+### Tableau Workbook
+
+The packaged Tableau workbook is available here:
+
+[Download Tableau Workbook](Stubble_Burning_Air_Quality_Dashboard.twbx)
