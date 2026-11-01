@@ -152,7 +152,7 @@ with tab1:
         }
     )
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
     st.subheader("PM2.5 Trend")
 
@@ -169,7 +169,7 @@ with tab1:
         }
     )
 
-    st.plotly_chart(fig2, use_container_width=True)
+    st.plotly_chart(fig2, width="stretch")
 
     city_summary = (
         filtered.groupby("city", as_index=False)
@@ -190,7 +190,7 @@ with tab1:
         text_auto=".2f"
     )
 
-    st.plotly_chart(fig3, use_container_width=True)
+    st.plotly_chart(fig3, width="stretch")
 
 
 # ---------------- TAB 2: FIRE ACTIVITY ----------------
@@ -215,7 +215,7 @@ with tab2:
         }
     )
 
-    st.plotly_chart(fig4, use_container_width=True)
+    st.plotly_chart(fig4, width="stretch")
 
     st.info(
         "Fire detections represent the approximate Punjab-Haryana "
@@ -267,7 +267,7 @@ with tab3:
         }
     )
 
-    st.plotly_chart(fig5, use_container_width=True)
+    st.plotly_chart(fig5, width="stretch")
 
     best_row = lag_df.loc[lag_df[corr_col].idxmax()]
 
@@ -294,7 +294,7 @@ with tab4:
 
     st.dataframe(
         regression_df,
-        use_container_width=True,
+        width="stretch",
         hide_index=True
     )
 
@@ -318,7 +318,7 @@ with tab5:
 
     st.dataframe(
         filtered,
-        use_container_width=True,
+        width="stretch",
         hide_index=True
     )
 
