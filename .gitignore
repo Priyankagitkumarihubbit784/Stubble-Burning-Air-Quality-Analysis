@@ -1,0 +1,17 @@
+# Large original NASA FIRMS downloads
+fire_data.csv
+DL_FIRE_SV-C2_835447.zip
+DL_FIRE_SV-C2_835447/
+
+# Original full AQI dataset
+air_quality_daily.csv
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temporary files
+.DS_Store
+Thumbs.db
